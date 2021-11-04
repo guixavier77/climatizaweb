@@ -1,0 +1,145 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #f2f2f2;
+}
+
+.header {
+  background: #375c71;
+  width: 100%;
+  height: 80px;
+}
+.header .nav_header {
+  margin-top: 20px;
+}
+.header h1 {
+  color: #ffff;
+  font-size: 24px;
+  font-weight: bold;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+.header input {
+  background: #fff;
+  border: 1px solid #ffff;
+  border-radius: 10px;
+  padding: 5px 5px;
+  outline: none;
+}
+.btn {
+  border: 1px solid #ffff;
+  border-radius: 6px;
+  padding: 10px 10px;
+  color: #ffff;
+  float: right;
+}
+
+.btn:hover {
+  border: 1px solid #7eb1cb;
+}
+.btn i {
+  margin-right: 5px;
+}
+/* conteudo */
+
+.content_temp {
+  margin-top: 40px;
+}
+
+.subtitulo {
+  font-size: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  font-weight: bold;
+  position: relative;
+  text-align: center;
+  color: #375c71;
+}
+
+.subtitulo::after {
+  content: "";
+  display: block;
+  width: 120px;
+  height: 3px;
+  background: #375c71;
+  margin: 6px auto 8px auto;
+}
+
+.card {
+  height: 400px;
+  margin-top: 20px;
+  /* background-image: linear-gradient(90deg, #375c71, #81b4cf); */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 40px;
+}
+
+.card .status_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card .primary_list {
+  height: 400px;
+  text-align: center;
+}
+.card .primary_list,
+.card .second_list {
+  padding: 90px 0;
+  margin-right: 10px;
+}
+.card .primary_list li,
+.card .second_list li {
+  margin-bottom: 40px;
+}
+.card .primary_list li span {
+  text-transform: uppercase;
+  font-style: italic;
+  padding-right: 10px;
+}
+
+.card .grau_list {
+  text-align: center;
+  height: 400px;
+}
+.card .title_grau {
+  padding-top: 30px;
+  font-size: 96px;
+  font-style: italic;
+}
+
+.card .city_grau {
+  font-size: 22px;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.card .img {
+  font-size: 96px;
+  padding: 120px;
+  height: 400px;
+}
+
+.btn-black {
+  border: 1px solid #000;
+  border-radius: 6px;
+  padding: 10px 10px;
+  color: #000;
+}
+
+.btn-black:hover {
+  border: 1px solid #7eb1cb;
+  color: #375c71;
+}
+
+footer {
+  background: #375c71;
+  height: 39px;
+}
+
+footer .text {
+  text-align: center;
+  color: #fff;
+  padding-top: 10px;
+}
